@@ -1,4 +1,7 @@
 
+import datetime
+import time
+
 class Timekeeper(object):
     def __init__(self, echo=False):
         self.points = list()
